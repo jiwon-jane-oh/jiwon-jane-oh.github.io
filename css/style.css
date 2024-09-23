@@ -259,6 +259,9 @@ button:focus {
 }
 
 .major {
+  /* display: flex; */
+  /* grid:; */
+  width: 33%;
   background-color: var(--color-primary-varient);
   padding: 2rem 1rem;
   color: var(--color-text);
@@ -551,8 +554,8 @@ button:focus {
 
 /* Footer */
 #contact {
-  background-color: var(--color-primary);
-  color: var(--color-text);
+  background-color: var(--color-white);
+  /* color: var(--color-text); */
   position: relative;
 }
 
@@ -566,7 +569,7 @@ button:focus {
   height: 100px;
   overflow: hidden;
   line-height: 0;
-  background-color: var(--color-white);
+  background-color: var(--color-black);
   mask: var(--divider-arrow);
   -webkit-mask: var(--divider-arrow);
 }
@@ -588,6 +591,7 @@ button:focus {
 
 .contact__link {
   transition: color 250ms ease-in;
+  color: var(--color-black);
 }
 
 .contact__link:hover {
